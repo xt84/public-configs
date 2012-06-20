@@ -15,7 +15,7 @@ alias = '~/where/you/clone/this/repo/tmux.sh'
 In ~/.tmux.conf
 
 ```shell
-source-file /home/eugene/Projects/shell/public-configs/tmux.conf
+source-file ~/where/you/clone/this/repo/tmux.conf
 ```
 
 Then
