@@ -1,7 +1,10 @@
-public-configs
-==============
+My configs in public
+====================
 
 Some configs from ~/ for all 
+
+TMUX
+====
 
 Config for use
 --------------
