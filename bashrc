@@ -12,6 +12,8 @@ fi
 export TERM=xterm-256color
 export EDITOR="vim"
 
-alias ls='ls --color'
+PROJECTS="Projects"
 
+alias ls='ls --color'
+export PATH="$PATH:$HOME/bin"
 export PS1="\[\033[1;37m\]-(\[\033[1;31m\]\w\[\033[1;37m\])-\n(\[\033[1;32m\]\u\[\033[1;31m\]@\[\033[1;36m\]\h\[\033[1;37m\])-$ "
