@@ -7,3 +7,12 @@
 [submodule "vim/dot-dir/vim-pathogen"]
 	path = vim/dot-dir/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "vim/dot-dir/nerdtree"]
+	path = vim/dot-dir/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/dot-dir/vim-colors-solarized"]
+	path = vim/dot-dir/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/dot-dir/vimerl"]
+	path = vim/dot-dir/vimerl
+	url = https://github.com/jimenezrick/vimerl.git

@@ -13,11 +13,6 @@ if [ ! -d $CURRENT_BACKUP_DIR ]; then
     mkdir -p $CURRENT_BACKUP_DIR
 fi
 
-if [ ! -d $CURRENT_BACKUP_DIR ]; then
-    mkdir -p $CURRENT_BACKUP_DIR
-fi
-
-
 if [ -f $TARGET_BASHRC ]; then
     if [ -L $TARGET_BASHRC ]; then
         rm $TARGET_BASHRC
@@ -29,6 +24,9 @@ if [ -f $TARGET_BASH_ALIASES ]; then
     if [ -L $TARGET_BASH_ALIASES ]; then
         rm $TARGET_BASH_ALIASES
     else
+        if [ ! -d $CURRENT_BACKUP_DIR ]; then
+            mkdir $CURRENT_BACKUP_DIR
+        fi
         mv $TARGET_BASH_ALIASES $CURRENT_BACKUP_DIR
     fi
 fi

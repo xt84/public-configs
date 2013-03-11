@@ -1,0 +1,3 @@
+# Application
+alias tmux="tmux.sh"
+alias ls="ls --colors"
